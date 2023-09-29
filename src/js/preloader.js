@@ -23,10 +23,10 @@ if (document.querySelector('.nav__li[href="/index.html"]')) {
   // console.log(Boolean(document.querySelector('.nav__li[href="/index.html"]')))
   linkOnSecondPageHome = document.querySelector('.nav__li[href="/index.html"]');
 }
-if (document.querySelector('.nav__li[href="/filmoteka-team10/index.html"]')) {
-  // console.log(Boolean(document.querySelector('.nav__li[href="/filmoteka-team10/index.html]"')))
+if (document.querySelector('.nav__li[href="/filmoteka/index.html"]')) {
+  // console.log(Boolean(document.querySelector('.nav__li[href="/filmoteka/index.html]"')))
   linkOnSecondPageHome = document.querySelector(
-    '.nav__li[href="/filmoteka-team10/index.html"]'
+    '.nav__li[href="/filmoteka/index.html"]'
   );
 }
 
@@ -38,11 +38,9 @@ if (document.querySelector('.nav__li[href="/my-library.html"]')) {
   linkOnSecondPageLibrary = document.querySelector('[href="/my-library.html"]');
 }
 
-if (
-  document.querySelector('.nav__li[href="/filmoteka-team10/my-library.html"]')
-) {
+if (document.querySelector('.nav__li[href="/filmoteka/my-library.html"]')) {
   linkOnSecondPageLibrary = document.querySelector(
-    '.nav__li[href="/filmoteka-team10/my-library.html"]'
+    '.nav__li[href="/filmoteka/my-library.html"]'
   );
 }
 
